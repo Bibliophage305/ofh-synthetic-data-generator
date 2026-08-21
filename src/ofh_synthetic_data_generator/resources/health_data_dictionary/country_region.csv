@@ -1,0 +1,5 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+ID,string,local,,,,,,Participant Geographies > Country and Region,ID,,Row ID,participant_geographies
+PID,string,,,,,participant:PID,many_to_one,Participant Geographies > Country and Region,PID,,Participant ID,participant_geographies
+COUNTRY_AT_REG,string,,COUNTRY_AT_REG,,,,,Participant Geographies > Country and Region,COUNTRY_AT_REG,,Participants' country at the time of registration.,participant_geographies
+REGION_AT_REG,string,,REGION_AT_REG,,,,,Participant Geographies > Country and Region,REGION_AT_REG,,Participants' region at the time of registration.,participant_geographies

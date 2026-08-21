@@ -1,0 +1,4 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+PID,string,,,,,participant:PID,many_to_one,Participant Geographies > LSOA,PID,,Participant ID,participant_geographies
+ID,string,local,,,,,,Participant Geographies > LSOA,ID,,Row ID,participant_geographies
+LSOA_AT_REG,string,,LSOA_AT_REG,,,,,Participant Geographies > LSOA,LSOA_AT_REG,,Lower Super Output Area (LSOA) of participants living in England and Wales at the time of registration,participant_geographies

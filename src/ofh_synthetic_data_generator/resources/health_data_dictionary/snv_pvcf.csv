@@ -1,0 +1,4 @@
+name,type,category,file,file_name,coding_name,level,field_type,vcf_field,units,values,description,Column1,Column2,Column3,Column4,sheet
+GT,string,genetic,SNV VCF,ofh_snv.v8.chrZ-bXXXX.vcf.gz,GT,genotype,vcf,FORMAT,,,Genotype of the sample,,,,,genetic_data
+AC,numeric,genetic,SNV VCF,ofh_snv.v8.chrZ-bXXXX.vcf.gz,AC,variant,vcf,INFO,,,Allele count in genotypes,,,,,genetic_data
+AN,numeric,genetic,SNV VCF,ofh_snv.v8.chrZ-bXXXX.vcf.gz,AN,variant,vcf,INFO,,,Total number of alleles in called genotypes,,,,,genetic_data

@@ -1,0 +1,4 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+PID,string,,,,,participant:PID,many_to_one,Participant Geographies > MSOA,PID,,Participant ID,participant_geographies
+ID,string,local,,,,,,Participant Geographies > MSOA,ID,,Row ID,participant_geographies
+MSOA_AT_REG,string,,MSOA_AT_REG,,,,,Participant Geographies > MSOA,MSOA_AT_REG,,Middle Super Output Area (MSOA) of participants living in England and Wales at the time of registration,participant_geographies

@@ -1,0 +1,13 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+EVENT_DATE,date,,,,,,,Our Future Health Linked NDRS Cancer Pathway,EVENT_DATE,,Event start date,linked_nhse_health_records
+EVENT_END,date,,,,,,,Our Future Health Linked NDRS Cancer Pathway,EVENT_END,,Event end date,linked_nhse_health_records
+EVENT_PROPERTY_1,string,,,,,,,Our Future Health Linked NDRS Cancer Pathway,EVENT_PROPERTY_1,,Event property (1),linked_nhse_health_records
+EVENT_PROPERTY_2,string,,,,,,,Our Future Health Linked NDRS Cancer Pathway,EVENT_PROPERTY_2,,Event property (2),linked_nhse_health_records
+EVENT_PROPERTY_3,string,,,,,,,Our Future Health Linked NDRS Cancer Pathway,EVENT_PROPERTY_3,,Event property (3),linked_nhse_health_records
+EVENT_TYPE,integer,,EVENT_TYPE_pathway_coding,,,,,Our Future Health Linked NDRS Cancer Pathway,EVENT_TYPE,,Type of event,linked_nhse_health_records
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked NDRS Cancer Pathway,PID,,Participant ID,linked_nhse_health_records
+PSEUDONYMISED_AVPID,string,,,,,,,Our Future Health Linked NDRS Cancer Pathway,PSEUDONYMISED_AVPID,,Pseuonymised Event ID,linked_nhse_health_records
+PSEUDONYMISED_TUMOURID,string,,,,,,,Our Future Health Linked NDRS Cancer Pathway,PSEUDONYMISED_TUMOURID,,Pseudonymised tumour ID,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked NDRS Cancer Pathway,ROW_ID,,OFH generated local key,linked_nhse_health_records
+SOURCE_ID,string,,,,,,,Our Future Health Linked NDRS Cancer Pathway,SOURCE_ID,,Unique ID of the record in the source table,linked_nhse_health_records
+SOURCE_TABLE,string,,,,,,,Our Future Health Linked NDRS Cancer Pathway,SOURCE_TABLE,,Source of event data,linked_nhse_health_records

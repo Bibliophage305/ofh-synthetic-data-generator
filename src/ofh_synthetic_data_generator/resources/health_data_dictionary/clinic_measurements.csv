@@ -1,0 +1,35 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+ID,string,local,,,,,,Our Future Health Clinic Measurements,ID,,Row ID,clinic_measurements
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Clinic Measurements,PID,,Participant ID,clinic_measurements
+APPOINTMENT_VERSION,string,,,,,,,Our Future Health Clinic Measurements,APPOINTMENT_VERSION,,Appointment Version,clinic_measurements
+APPOINTMENT_DATETIME,datetime,,,,,,,Our Future Health Clinic Measurements,APPOINTMENT_DATETIME,,Appointment Date and Time. Time is rounded to the nearest hour,clinic_measurements
+HEIGHT,integer,,,,,,,Our Future Health Clinic Measurements,HEIGHT,cm,Height recorded in centimeters (cm),clinic_measurements
+WEIGHT,float,,,,,,,Our Future Health Clinic Measurements,WEIGHT,kg,Weight recorded in kilograms (kg),clinic_measurements
+WAIST,integer,,,,,,,Our Future Health Clinic Measurements,WAIST,cm,Waist circumference recorded in centimeters (cm),clinic_measurements
+HEART_FIRST_RATE,integer,,,,,,,Our Future Health Clinic Measurements,HEART_FIRST_RATE,bpm,First heart rate measurement recorded in beats per minute (bpm),clinic_measurements
+HEART_FIRST_BP_SYSTOLIC,integer,,,,,,,Our Future Health Clinic Measurements,HEART_FIRST_BP_SYSTOLIC,mmHg,First systolic blood pressure reading recorded in millimeters of mercury (mmHg),clinic_measurements
+HEART_FIRST_BP_DIASTOLIC,integer,,,,,,,Our Future Health Clinic Measurements,HEART_FIRST_BP_DIASTOLIC,mmHg,First diastolic blood pressure reading recorded in millimeters of mercury (mmHg),clinic_measurements
+HEART_SECOND_RATE,integer,,,,,,,Our Future Health Clinic Measurements,HEART_SECOND_RATE,bpm,Second heart rate measurement recorded in beats per minute (bpm),clinic_measurements
+HEART_SECOND_BP_SYSTOLIC,integer,,,,,,,Our Future Health Clinic Measurements,HEART_SECOND_BP_SYSTOLIC,mmHg,"Second systolic blood pressure reading, recorded in millimeters of mercury (mmHg)",clinic_measurements
+HEART_SECOND_BP_DIASTOLIC,integer,,,,,,,Our Future Health Clinic Measurements,HEART_SECOND_BP_DIASTOLIC,mmHg,Second diastolic blood pressure reading recorded in millimeters of mercury (mmHg),clinic_measurements
+HEART_THIRD_RATE,integer,,,,,,,Our Future Health Clinic Measurements,HEART_THIRD_RATE,bpm,Third heart rate measurement recorded in beats per minute (bpm),clinic_measurements
+HEART_THIRD_BP_SYSTOLIC,integer,,,,,,,Our Future Health Clinic Measurements,HEART_THIRD_BP_SYSTOLIC,mmHg,Third systolic blood pressure reading recorded in millimeters of mercury (mmHg),clinic_measurements
+HEART_THIRD_BP_DIASTOLIC,integer,,,,,,,Our Future Health Clinic Measurements,HEART_THIRD_BP_DIASTOLIC,mmHg,Third diastolic blood pressure reading recorded in millimeters of mercury (mmHg),clinic_measurements
+HEIGHT_SKIPPED,integer,,HEIGHT_SKIPPED,,,,,Our Future Health Clinic Measurements,HEIGHT_SKIPPED,,Indicator of whether the participant skipped the height measurement,clinic_measurements
+WEIGHT_SKIPPED,integer,,WEIGHT_SKIPPED,,,,,Our Future Health Clinic Measurements,WEIGHT_SKIPPED,,Indicator of whether the participant skipped the weight measurement,clinic_measurements
+WAIST_SKIPPED,integer,,WAIST_SKIPPED,,,,,Our Future Health Clinic Measurements,WAIST_SKIPPED,,Indicator of whether the participant skipped the waist circumference measurement,clinic_measurements
+HEART_FIRST_SKIPPED,integer,,HEART_FIRST_SKIPPED,,,,,Our Future Health Clinic Measurements,HEART_FIRST_SKIPPED,,Indicator of whether the participant skipped the first set of heart measurements,clinic_measurements
+HEART_SECOND_SKIPPED,integer,,HEART_SECOND_SKIPPED,,,,,Our Future Health Clinic Measurements,HEART_SECOND_SKIPPED,,Indicator of whether the participant skipped the second set of heart measurements,clinic_measurements
+HEART_THIRD_SKIPPED,integer,,HEART_THIRD_SKIPPED,,,,,Our Future Health Clinic Measurements,HEART_THIRD_SKIPPED,,Indicator of whether the participant skipped the third set of heart measurements. Only participants with abnormal readings to the first and second measurements are offered a third measurement,clinic_measurements
+HEIGHT_SKIPPED_REASON,integer,,HEIGHT_SKIPPED_REASON,,,,,Our Future Health Clinic Measurements,HEIGHT_SKIPPED_REASON,,Reason given for skipping the height measurement,clinic_measurements
+WEIGHT_SKIPPED_REASON,integer,,WEIGHT_SKIPPED_REASON,,,,,Our Future Health Clinic Measurements,WEIGHT_SKIPPED_REASON,,Reason given for skipping the weight measurement,clinic_measurements
+WAIST_SKIPPED_REASON,integer,,WAIST_SKIPPED_REASON,,,,,Our Future Health Clinic Measurements,WAIST_SKIPPED_REASON,,Reason given for skipping the waist circumference measurement,clinic_measurements
+HEART_FIRST_RHYTHM,integer,,HEART_FIRST_RHYTHM,,,,,Our Future Health Clinic Measurements,HEART_FIRST_RHYTHM,,First heart rhythm measurement recorded as regular or irregular,clinic_measurements
+HEART_SECOND_RHYTHM,integer,,HEART_SECOND_RHYTHM,,,,,Our Future Health Clinic Measurements,HEART_SECOND_RHYTHM,,Second heart rhythm measurement recorded as regular or irregular,clinic_measurements
+HEART_THIRD_RHYTHM,integer,,HEART_THIRD_RHYTHM,,,,,Our Future Health Clinic Measurements,HEART_THIRD_RHYTHM,,Third heart rhythm measurement recorded as regular or irregular,clinic_measurements
+HEART_FIRST_SKIPPED_REASON,integer,,HEART_FIRST_SKIPPED_REASON,,,,,Our Future Health Clinic Measurements,HEART_FIRST_SKIPPED_REASON,,Reason given for skipping the first set of heart measurements,clinic_measurements
+HEART_SECOND_SKIPPED_REASON,integer,,HEART_SECOND_SKIPPED_REASON,,,,,Our Future Health Clinic Measurements,HEART_SECOND_SKIPPED_REASON,,Reason given for skipping the second set of heart measurements,clinic_measurements
+HEART_THIRD_SKIPPED_REASON,integer,,HEART_THIRD_SKIPPED_REASON,,,,,Our Future Health Clinic Measurements,HEART_THIRD_SKIPPED_REASON,,Reason given for skipping the third set of heart measurements,clinic_measurements
+CLINIC_SITE_REF,string,,,,,,,Our Future Health Clinic Measurements,CLINIC_SITE_REF,,Reference to the clinic site where the measurements were taken,clinic_measurements
+CLINIC_PROVIDER,string,,,,,,,Our Future Health Clinic Measurements,CLINIC_PROVIDER,,Reference to the organisation providing the clinic,clinic_measurements
+IS_MOBILE_CLINIC,integer,,IS_MOBILE_CLINIC,,,,,Our Future Health Clinic Measurements,IS_MOBILE_CLINIC,,Indicator of whether the clinic is a mobile clinic,clinic_measurements

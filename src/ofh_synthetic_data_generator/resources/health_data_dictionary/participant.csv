@@ -1,0 +1,15 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+PID,string,global,,,,,,Our Future Health Participant,PID,,Participant ID,participant
+REGISTRATION_YEAR,integer,,,,,,,Our Future Health Participant,REGISTRATION_YEAR,,Year of Registration derived from Date of Registration,participant
+REGISTRATION_MONTH,integer,,,,,,,Our Future Health Participant,REGISTRATION_MONTH,,Month of Registration derived from Date of Registration,participant
+CONSENT_VERSION,string,,,,,,,Our Future Health Participant,CONSENT_VERSION,,Consent Version,participant
+CONSENT_YEAR,integer,,,,,,,Our Future Health Participant,CONSENT_YEAR,,Year of Consent derived from Date of Consent,participant
+CONSENT_MONTH,integer,,,,,,,Our Future Health Participant,CONSENT_MONTH,,Month of Consent derived from Date of Consent,participant
+BIRTH_YEAR,integer,,BIRTH_YEAR,yes,,,,Our Future Health Participant,BIRTH_YEAR,,Year of Birth derived from Date of Birth,participant
+BIRTH_MONTH,integer,,BIRTH_MONTH,yes,,,,Our Future Health Participant,BIRTH_MONTH,,Month of Birth derived from Date of Birth,participant
+BLOOD_SAMPLE,integer,,BLOOD_SAMPLE,,,,,Our Future Health Participant,BLOOD_SAMPLE,,"Blood sample obtained with sufficient condition and volume for extraction of buffy coat, DNA and plasma",participant
+DEMOG_ETHNICITY_1_1,integer,,DEMOG_ETHNICITY_1_1,,,,,Our Future Health Participant,DEMOG_ETHNICITY_1_1,,What is your ethnic group? Choose one option that best describes your ethnic group or background,participant
+DEMOG_GENDER_1_1,integer,,DEMOG_GENDER_1_1,,,,,Our Future Health Participant,DEMOG_GENDER_1_1,,To which gender identity do you most identify?,participant
+DEMOG_GENDER_2_1,integer,,DEMOG_GENDER_2_1,,,,,Our Future Health Participant,DEMOG_GENDER_2_1,,Select the option that best describes your current gender identity,participant
+DEMOG_SEX_1_1,integer,,DEMOG_SEX_1_1,,,,,Our Future Health Participant,DEMOG_SEX_1_1,,What sex was assigned to you at birth?,participant
+DEMOG_SEX_2_1,integer,,DEMOG_SEX_2_1,,,,,Our Future Health Participant,DEMOG_SEX_2_1,,What sex were you registered with at birth?,participant

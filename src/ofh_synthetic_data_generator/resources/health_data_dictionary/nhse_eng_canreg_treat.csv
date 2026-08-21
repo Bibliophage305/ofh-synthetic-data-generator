@@ -1,0 +1,23 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+CHEMO_ALL_DRUGS,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,CHEMO_ALL_DRUGS,,Chemotherapy drug name,linked_nhse_health_records
+CT_FLAG,integer,,CT_FLAG_treatment_coding,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,CT_FLAG,,Flag to indicate chemotherapy treatment,linked_nhse_health_records
+EVENTCODE,string,,EVENTCODE_treatment_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Treatment,EVENTCODE,,Type of event code and description,linked_nhse_health_records
+EVENTDATE,date,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,EVENTDATE,,Date the event took place,linked_nhse_health_records
+EVENTDESC,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,EVENTDESC,,Type of event code and description,linked_nhse_health_records
+IMAGINGCODE_NICIP,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,IMAGINGCODE_NICIP,,Imaging code (internal coding system) and description of imaging,linked_nhse_health_records
+IMAGINGCODE_SNOMEDCT,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,IMAGINGCODE_SNOMEDCT,,Imaging code (internal coding system) and description of imaging,linked_nhse_health_records
+IMAGINGDESC,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,IMAGINGDESC,,Imaging code (internal coding system) and description of imaging,linked_nhse_health_records
+IMAGINGSITE,string,,OPCS4_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Treatment,IMAGINGSITE,,Site on body where imaging occurred,linked_nhse_health_records
+LESIONSIZE,float,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,LESIONSIZE,,Size in millimetres of the diameter of a lesion (histology),linked_nhse_health_records
+OPCS4_CODE,string,,OPCS4_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Treatment,OPCS4_CODE,,"Operations, procedures and interventions (OPCS-4) code and name",linked_nhse_health_records
+OPCS4_NAME,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,OPCS4_NAME,,"Operations, procedures and interventions (OPCS-4) code and name",linked_nhse_health_records
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked NDRS Cancer Registry Treatment,PID,,Participant ID,linked_nhse_health_records
+PSEUDONYMISED_EVENTID,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,PSEUDONYMISED_EVENTID,,Pseudonymised Event ID ,linked_nhse_health_records
+PSEUDONYMISED_TUMOURID,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,PSEUDONYMISED_TUMOURID,,Pseudonymised tumour ID ,linked_nhse_health_records
+RADIOCODE,string,,RADIOCODE_treatment_coding,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,RADIOCODE,,Radiotherapy code and description,linked_nhse_health_records
+RADIODESC,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,RADIODESC,,Radiotherapy code and description,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,ROW_ID,,OFH generated local key,linked_nhse_health_records
+RT_FLAG,integer,,RT_FLAG_treatment_coding,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,RT_FLAG,,Flag to indicate radiotherapy treatment,linked_nhse_health_records
+SG_FLAG,integer,,SG_FLAG_treatment_coding,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,SG_FLAG,,Flag to indicate surgery,linked_nhse_health_records
+SIX_MONTHS_AFTER_FLAG,integer,,SIX_MONTHS_AFTER_FLAG_treatment_coding,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,SIX_MONTHS_AFTER_FLAG,,Treatment six months from date of diagnosis - check flag,linked_nhse_health_records
+WITHIN_SIX_MONTHS_FLAG,integer,,WITHIN_SIX_MONTHS_FLAG_treatment_coding,,,,,Our Future Health Linked NDRS Cancer Registry Treatment,WITHIN_SIX_MONTHS_FLAG,,Treatment within 6 months of diagnosis - check flag,linked_nhse_health_records

@@ -1,0 +1,3 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked Participant,PID,,Participant ID,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked Participant,ROW_ID,,OFH generated local key,linked_nhse_health_records

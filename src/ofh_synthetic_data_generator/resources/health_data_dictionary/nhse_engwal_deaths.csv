@@ -1,0 +1,21 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked NHS Death Data,PID,,Participant ID,linked_nhse_health_records
+REG_DATE,date,,,,,,,Our Future Health Linked NHS Death Data,REG_DATE,,Date of Registration,linked_nhse_health_records
+REG_DATE_OF_DEATH,date,,,,,,,Our Future Health Linked NHS Death Data,REG_DATE_OF_DEATH,,Date of death,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked NHS Death Data,ROW_ID,,OFH generated local key,linked_nhse_health_records
+S_COD_CODE_1,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_1,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_10,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_10,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_11,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_11,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_12,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_12,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_13,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_13,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_14,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_14,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_15,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_15,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_2,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_2,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_3,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_3,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_4,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_4,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_5,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_5,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_6,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_6,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_7,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_7,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_8,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_8,,ICD10 Original mention codes,linked_nhse_health_records
+S_COD_CODE_9,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_COD_CODE_9,,ICD10 Original mention codes,linked_nhse_health_records
+S_UNDERLYING_COD_ICD10,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS Death Data,S_UNDERLYING_COD_ICD10,,ICD10 Original Underlying code,linked_nhse_health_records

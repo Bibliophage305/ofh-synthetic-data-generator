@@ -1,0 +1,50 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+BEHAVIOUR_CODED,string,,BEHAVIOUR_CODED_pattumour_coding,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,BEHAVIOUR_CODED,,Numeric behaviour code and description,linked_nhse_health_records
+BEHAVIOUR_CODED_DESC,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,BEHAVIOUR_CODED_DESC,,Numeric behaviour code and description,linked_nhse_health_records
+BEHAVIOUR_ICD10_O2,string,,BEHAVIOUR_ICD10_O2_pattumour_coding,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,BEHAVIOUR_ICD10_O2,,"Behaviour of the cancer, in the ICD-10-O2 system",linked_nhse_health_records
+BIGTUMOURCOUNT,integer,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,BIGTUMOURCOUNT,,Count of every tumour assigned to this PatientID,linked_nhse_health_records
+CODING_SYSTEM,string,,CODING_SYSTEM_pattumour_coding,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,CODING_SYSTEM,,The coding system used to register the tumour (code and description),linked_nhse_health_records
+CODING_SYSTEM_DESC,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,CODING_SYSTEM_DESC,,The coding system used to register the tumour (code and description),linked_nhse_health_records
+DIAGNOSISDATE1,date,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,DIAGNOSISDATE1,,Earliest date when the diagnosis may have taken place,linked_nhse_health_records
+DIAGNOSISDATE2,date,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,DIAGNOSISDATE2,,Latest date when the diagnosis may have taken place,linked_nhse_health_records
+DIAGNOSISDATEBEST,date,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,DIAGNOSISDATEBEST,,Diagnosis date,linked_nhse_health_records
+DUKES,string,,DUKES_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,DUKES,,Dukes' stage,linked_nhse_health_records
+ER_SCORE,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,ER_SCORE,,Oestrogen receptor score of the tumour ,linked_nhse_health_records
+ER_STATUS,string,,ER_STATUS_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,ER_STATUS,,Oestrogen receptor status of the tumour,linked_nhse_health_records
+FIGO,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,FIGO,,FIGO stage,linked_nhse_health_records
+GLEASON_COMBINED,integer,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,GLEASON_COMBINED,,Combined Gleason primary and secondary scores,linked_nhse_health_records
+GLEASON_PRIMARY,integer,,GLEASON_PRIMARY_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,GLEASON_PRIMARY,,Gleason primary pattern,linked_nhse_health_records
+GLEASON_SECONDARY,integer,,GLEASON_SECONDARY_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,GLEASON_SECONDARY,,Gleason secondary pattern,linked_nhse_health_records
+GLEASON_TERTIARY,integer,,GLEASON_TERTIARY_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,GLEASON_TERTIARY,,Gleason tertiary pattern,linked_nhse_health_records
+GRADE,string,,GRADE_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,GRADE,,Grade of tumour,linked_nhse_health_records
+HER2_STATUS,string,,HER2_STATUS_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,HER2_STATUS,,Human Epidermal Growth Factor Receptor 2 (HER2) status of the tumour ,linked_nhse_health_records
+HISTOLOGY_CODED,string,,MORPH_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,HISTOLOGY_CODED,,Histology code and description,linked_nhse_health_records
+HISTOLOGY_CODED_DESC,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,HISTOLOGY_CODED_DESC,,Histology code and description,linked_nhse_health_records
+IMD_QUINTILE,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,IMD_QUINTILE,,"Measure of deprivation at small area level made up from the IMD, quintiles are calculated from LSOAs",linked_nhse_health_records
+LATERALITY,string,,LATERALITY_pattumour_coding,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,LATERALITY,,Laterality ,linked_nhse_health_records
+MORPH_CODED,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,MORPH_CODED,,"Morphology of the cancer, in the coding system that the tumour was originally coded in.",linked_nhse_health_records
+MORPH_ICD10_O2,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,MORPH_ICD10_O2,,"Morphology of the cancer, in the ICD-10-O2 system",linked_nhse_health_records
+M_BEST,string,,UICC_M_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,M_BEST,,M stage flagged by the registry as the ‘best’  M stage,linked_nhse_health_records
+NODESEXCISED,integer,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,NODESEXCISED,,Number of nodes excised,linked_nhse_health_records
+NODESINVOLVED,integer,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,NODESINVOLVED,,Number of nodes involved,linked_nhse_health_records
+NPI,float,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,NPI,,Nottingham Prognostic Index Score,linked_nhse_health_records
+N_BEST,string,,UICC_N_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,N_BEST,,N stage flagged by the registry as the ‘best’ N stage,linked_nhse_health_records
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked NDRS Cancer Registry Patient Tumour,PID,,Participant ID,linked_nhse_health_records
+PR_SCORE,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,PR_SCORE,,Progesterone receptor score of the tumour,linked_nhse_health_records
+PR_STATUS,string,,PR_STATUS_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,PR_STATUS,,Progesterone receptor status of the tumour,linked_nhse_health_records
+PSEUDONYMISED_TUMOURID,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,PSEUDONYMISED_TUMOURID,,Pseudonymised tumour ID ,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,ROW_ID,,OFH generated local key,linked_nhse_health_records
+SCREENDETECTED,string,,SCREENDETECTED_pattumour_coding,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SCREENDETECTED,,Screen detected cancer,linked_nhse_health_records
+SCREENINGSTATUSCOSD_CODE,string,,SCREENINGSTATUSCOSD_CODE_pattumour_coding,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SCREENINGSTATUSCOSD_CODE,,Screening status of the tumour (code and description),linked_nhse_health_records
+SCREENINGSTATUSCOSD_NAME,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SCREENINGSTATUSCOSD_NAME,,Screening status of the tumour (code and description),linked_nhse_health_records
+SCREENINGSTATUSFULL_CODE,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SCREENINGSTATUSFULL_CODE,,Full detailed screening status of the tumour code and description,linked_nhse_health_records
+SCREENINGSTATUSFULL_NAME,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SCREENINGSTATUSFULL_NAME,,Full detailed screening status of the tumour code and description,linked_nhse_health_records
+SITE_CODED,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SITE_CODED,,Site of the cancer and text description,linked_nhse_health_records
+SITE_CODED_3CHAR,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SITE_CODED_3CHAR,,3 digit version of SITE_CODED,linked_nhse_health_records
+SITE_CODED_DESC,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SITE_CODED_DESC,,Site of the cancer and text description,linked_nhse_health_records
+SITE_ICD10_O2,string,,ICD10_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,SITE_ICD10_O2,,Site of neoplasm (4-character ICD-10-O2 code),linked_nhse_health_records
+STAGE_BEST,string,,STAGE_BEST_pattumour_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,STAGE_BEST,,Best ‘registry’ stage at diagnosis of the tumour,linked_nhse_health_records
+STAGE_BEST_SYSTEM,string,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,STAGE_BEST_SYSTEM,,System used to record best registry stage at diagnosis,linked_nhse_health_records
+TUMOURCOUNT,integer,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,TUMOURCOUNT,,Count of every tumour assigned to this PatientID,linked_nhse_health_records
+TUMOURSIZE,float,,,,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,TUMOURSIZE,,Size of the largest dimension of the tumour,linked_nhse_health_records
+T_BEST,string,,UICC_T_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry Patient Tumour,T_BEST,,T stage flagged by the registry as the ‘best’ T stage,linked_nhse_health_records

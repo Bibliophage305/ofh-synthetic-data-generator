@@ -1,0 +1,92 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+AEARRIVALMODE,string,,AEARRIVALMODE_ae_coding,,,,,Our Future Health Linked NHS HES AE Data,AEARRIVALMODE,,Arrival Mode,linked_nhse_health_records
+AEATTENDCAT,string,,AEATTENDCAT_ae_coding,,,,,Our Future Health Linked NHS HES AE Data,AEATTENDCAT,,Attendance Category,linked_nhse_health_records
+AEATTENDDISP,string,,AEATTENDDISP_ae_coding,,,,,Our Future Health Linked NHS HES AE Data,AEATTENDDISP,,Attendance Disposal,linked_nhse_health_records
+AEDEPTTYPE,string,,AEDEPTTYPE_ae_coding,,,,,Our Future Health Linked NHS HES AE Data,AEDEPTTYPE,,Department Type,linked_nhse_health_records
+AEKEY,string,,,,,,,Our Future Health Linked NHS HES AE Data,AEKEY,,HES Record Identifier,linked_nhse_health_records
+AEREFSOURCE,string,,AEREFSOURCE_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,AEREFSOURCE,,Source of Referral For A&E,linked_nhse_health_records
+ARRIVALDATE,date,,,,,,,Our Future Health Linked NHS HES AE Data,ARRIVALDATE,,Arrival Date,linked_nhse_health_records
+ARRIVALTIME,string,,,,,,,Our Future Health Linked NHS HES AE Data,ARRIVALTIME,,Arrival Time,linked_nhse_health_records
+CONCLTIME,string,,CONCLTIME_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,CONCLTIME,,Conclusion Time,linked_nhse_health_records
+DEPTIME,string,,DEPTIME_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DEPTIME,,Departure Time,linked_nhse_health_records
+DIAGA_01,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_01,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_02,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_02,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_03,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_03,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_04,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_04,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_05,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_05,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_06,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_06,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_07,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_07,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_08,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_08,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_09,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_09,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_10,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_10,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_11,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_11,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGA_12,string,,DIAGA_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGA_12,,Diagnosis Code - Anatomical Area,linked_nhse_health_records
+DIAGSCHEME,string,,DIAGSCHEME_ae_coding,,,,,Our Future Health Linked NHS HES AE Data,DIAGSCHEME,,Diagnosis Scheme in Use,linked_nhse_health_records
+DIAGS_01,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_01,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_02,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_02,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_03,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_03,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_04,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_04,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_05,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_05,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_06,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_06,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_07,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_07,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_08,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_08,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_09,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_09,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_10,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_10,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_11,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_11,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAGS_12,string,,DIAGS_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,DIAGS_12,,Diagnosis Code - Anatomical Side,linked_nhse_health_records
+DIAG_01,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_01,,Diagnosis Code,linked_nhse_health_records
+DIAG_02,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_02,,Diagnosis Code,linked_nhse_health_records
+DIAG_03,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_03,,Diagnosis Code,linked_nhse_health_records
+DIAG_04,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_04,,Diagnosis Code,linked_nhse_health_records
+DIAG_05,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_05,,Diagnosis Code,linked_nhse_health_records
+DIAG_06,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_06,,Diagnosis Code,linked_nhse_health_records
+DIAG_07,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_07,,Diagnosis Code,linked_nhse_health_records
+DIAG_08,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_08,,Diagnosis Code,linked_nhse_health_records
+DIAG_09,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_09,,Diagnosis Code,linked_nhse_health_records
+DIAG_10,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_10,,Diagnosis Code,linked_nhse_health_records
+DIAG_11,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_11,,Diagnosis Code,linked_nhse_health_records
+DIAG_12,string,,,,,,,Our Future Health Linked NHS HES AE Data,DIAG_12,,Diagnosis Code,linked_nhse_health_records
+EPIKEY,string,,,,,,,Our Future Health Linked NHS HES AE Data,EPIKEY,,APC Record Identifier,linked_nhse_health_records
+IMD04_DECILE,string,,,,,,,Our Future Health Linked NHS HES AE Data,IMD04_DECILE,,IMD Decile Group,linked_nhse_health_records
+INVEST2_01,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_01,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_02,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_02,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_03,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_03,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_04,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_04,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_05,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_05,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_06,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_06,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_07,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_07,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_08,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_08,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_09,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_09,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_10,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_10,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_11,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_11,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST2_12,string,,INVEST2_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,INVEST2_12,,A&E Investigation - 2 Character,linked_nhse_health_records
+INVEST_01,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_01,,A&E Investigation,linked_nhse_health_records
+INVEST_02,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_02,,A&E Investigation,linked_nhse_health_records
+INVEST_03,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_03,,A&E Investigation,linked_nhse_health_records
+INVEST_04,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_04,,A&E Investigation,linked_nhse_health_records
+INVEST_05,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_05,,A&E Investigation,linked_nhse_health_records
+INVEST_06,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_06,,A&E Investigation,linked_nhse_health_records
+INVEST_07,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_07,,A&E Investigation,linked_nhse_health_records
+INVEST_08,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_08,,A&E Investigation,linked_nhse_health_records
+INVEST_09,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_09,,A&E Investigation,linked_nhse_health_records
+INVEST_10,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_10,,A&E Investigation,linked_nhse_health_records
+INVEST_11,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_11,,A&E Investigation,linked_nhse_health_records
+INVEST_12,string,,,,,,,Our Future Health Linked NHS HES AE Data,INVEST_12,,A&E Investigation,linked_nhse_health_records
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked NHS HES AE Data,PID,,Participant ID,linked_nhse_health_records
+PROCODE3_OFH,string,,,,,,,Our Future Health Linked NHS HES AE Data,PROCODE3_OFH,,Provider Organisation Code (Pseudonymised by OFH),linked_nhse_health_records
+PROTYPE,string,,PROTYPE_ae_coding,,,,,Our Future Health Linked NHS HES AE Data,PROTYPE,,Provider Type,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked NHS HES AE Data,ROW_ID,,OFH generated local key,linked_nhse_health_records
+SUSSPELLID,string,,SUSSPELLID_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,SUSSPELLID,,SUS Generated Spell Identifier,linked_nhse_health_records
+TREAT_01,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_01,,A&E Treatment,linked_nhse_health_records
+TREAT_02,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_02,,A&E Treatment,linked_nhse_health_records
+TREAT_03,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_03,,A&E Treatment,linked_nhse_health_records
+TREAT_04,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_04,,A&E Treatment,linked_nhse_health_records
+TREAT_05,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_05,,A&E Treatment,linked_nhse_health_records
+TREAT_06,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_06,,A&E Treatment,linked_nhse_health_records
+TREAT_07,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_07,,A&E Treatment,linked_nhse_health_records
+TREAT_08,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_08,,A&E Treatment,linked_nhse_health_records
+TREAT_09,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_09,,A&E Treatment,linked_nhse_health_records
+TREAT_10,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_10,,A&E Treatment,linked_nhse_health_records
+TREAT_11,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_11,,A&E Treatment,linked_nhse_health_records
+TREAT_12,string,,,,,,,Our Future Health Linked NHS HES AE Data,TREAT_12,,A&E Treatment,linked_nhse_health_records
+TRETTIME,string,,TRETTIME_ae_coding,yes,,,,Our Future Health Linked NHS HES AE Data,TRETTIME,,Time Seen For Treatment,linked_nhse_health_records

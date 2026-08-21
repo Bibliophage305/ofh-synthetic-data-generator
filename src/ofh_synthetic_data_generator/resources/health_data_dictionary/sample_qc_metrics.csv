@@ -1,0 +1,7 @@
+name,type,category,file,file_name,coding_name,level,field_type,vcf_field,units,values,description,Column1,Column2,Column3,Column4,sheet
+PID,string,genetic,Sample QC metrics,ofh_sample_qc_ metrics.v8.tsv,id,sample,tsv,,id,,Sample ID,,,,,genetic_data
+Plate,string,genetic,Sample QC metrics,ofh_sample_qc_ metrics.v8.tsv,plate,sample,tsv,,categorical,,Identifier of the microwell plate of the sample,,,,,genetic_data
+Genetic sex,string,genetic,Sample QC metrics,ofh_sample_qc_ metrics.v8.tsv,genetic_sex,sample,tsv,,categorical,M ['Male'] F ['Female'] U ['Unknown'],Estimated genetic sex of the sample,,,,,genetic_data
+Batch,string,genetic,Sample QC metrics,ofh_sample_qc_ metrics.v8.tsv,batch,sample,tsv,,categorical,,Identifier of the batch based on the date of genotype calling and the microwell plate identifier,,,,,genetic_data
+Call rate,numeric,genetic,Sample QC metrics,ofh_sample_qc_ metrics.v8.tsv,call_rate,sample,tsv,,proportion of variants with genotype call,,Call rate of the sample based on variants from all chromosomes,,,,,genetic_data
+Array manifest version,string,genetic,Sample QC metrics,ofh_sample_qc_ metrics.v8.tsv,array_manifest_version,sample,tsv,,,v1 ['A1 manifest'] v2 ['C2 manifest'],Version of array manifest used to call samples,,,,,genetic_data

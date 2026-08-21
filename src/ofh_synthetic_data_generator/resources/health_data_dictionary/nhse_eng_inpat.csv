@@ -1,0 +1,109 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+ACSCFLAG,integer,,ACSCFLAG_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,ACSCFLAG,,Ambulatory Care Sensitive Condition Flag,linked_nhse_health_records
+ADMIDATE,date,,ADMIDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,ADMIDATE,,Admission Date (Hospital Provider Spell),linked_nhse_health_records
+ADMIMETH,string,,ADMIMETH_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,ADMIMETH,,Method of Admission,linked_nhse_health_records
+ADMINCAT,string,,ADMINCAT_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,ADMINCAT,,Administrative Category Code on Admission,linked_nhse_health_records
+ADMISORC,string,,ADMISORC_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,ADMISORC,,Source of Admission,linked_nhse_health_records
+AEKEY,string,,,,,,,Our Future Health Linked NHS HES APC Data,AEKEY,,A&E Record Identifier,linked_nhse_health_records
+BEDYEAR,string,,BEDYEAR_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,BEDYEAR,,Bed Days Within the Year,linked_nhse_health_records
+CARERSI,string,,CARERSI_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,CARERSI,,Carer Support Indicator,linked_nhse_health_records
+CLASSPAT,string,,CLASSPAT_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,CLASSPAT,,Patient Classification,linked_nhse_health_records
+DIAG_4_01,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_01,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_02,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_02,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_03,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_03,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_04,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_04,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_05,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_05,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_06,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_06,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_07,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_07,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_08,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_08,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_09,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_09,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_10,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_10,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_11,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_11,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_12,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_12,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_13,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_13,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_14,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_14,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_15,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_15,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_16,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_16,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_17,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_17,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_18,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_18,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_19,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_19,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DIAG_4_20,string,,ICD10_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DIAG_4_20,,Diagnosis Code - 4 Character,linked_nhse_health_records
+DISDATE,date,,DISDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,DISDATE,,Date of Discharge,linked_nhse_health_records
+DISDEST,string,,DISDEST_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,DISDEST,,Destination on Discharge,linked_nhse_health_records
+DISMETH,string,,DISMETH_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,DISMETH,,Method of Discharge,linked_nhse_health_records
+DISREADYDATE,date,,,,,,,Our Future Health Linked NHS HES APC Data,DISREADYDATE,,Discharge Ready Date,linked_nhse_health_records
+ELECDATE,date,,ELECDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,ELECDATE,,Date of Decision to Admit,linked_nhse_health_records
+ELECDUR,integer,,ELECDUR_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,ELECDUR,,Duration of Elective Wait (Derived),linked_nhse_health_records
+EPIDUR,string,,EPIDUR_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,EPIDUR,,Episode Duration,linked_nhse_health_records
+EPIEND,date,,EPIEND_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,EPIEND,,Episode End Date,linked_nhse_health_records
+EPIKEY,string,,,,,,,Our Future Health Linked NHS HES APC Data,EPIKEY,,HES Record Identifier,linked_nhse_health_records
+EPIORDER,string,,EPIORDER_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,EPIORDER,,Episode Order,linked_nhse_health_records
+EPISTART,date,,EPISTART_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,EPISTART,,Episode Start Date,linked_nhse_health_records
+EPITYPE,integer,,EPITYPE_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,EPITYPE,,Episode Type,linked_nhse_health_records
+FIRSTREG,string,,FIRSTREG_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,FIRSTREG,,First Regular Day or Night Admission,linked_nhse_health_records
+IMD04_DECILE,string,,,,,,,Our Future Health Linked NHS HES APC Data,IMD04_DECILE,,IMD Decile Group,linked_nhse_health_records
+INTMANIG,string,,INTMANIG_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,INTMANIG,,Intended Management,linked_nhse_health_records
+MAINSPEF,string,,MAINSPEF_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,MAINSPEF,,Main Specialty,linked_nhse_health_records
+OPDATE_01,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_01,,Date of Procedure,linked_nhse_health_records
+OPDATE_02,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_02,,Date of Procedure,linked_nhse_health_records
+OPDATE_03,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_03,,Date of Procedure,linked_nhse_health_records
+OPDATE_04,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_04,,Date of Procedure,linked_nhse_health_records
+OPDATE_05,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_05,,Date of Procedure,linked_nhse_health_records
+OPDATE_06,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_06,,Date of Procedure,linked_nhse_health_records
+OPDATE_07,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_07,,Date of Procedure,linked_nhse_health_records
+OPDATE_08,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_08,,Date of Procedure,linked_nhse_health_records
+OPDATE_09,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_09,,Date of Procedure,linked_nhse_health_records
+OPDATE_10,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_10,,Date of Procedure,linked_nhse_health_records
+OPDATE_11,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_11,,Date of Procedure,linked_nhse_health_records
+OPDATE_12,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_12,,Date of Procedure,linked_nhse_health_records
+OPDATE_13,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_13,,Date of Procedure,linked_nhse_health_records
+OPDATE_14,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_14,,Date of Procedure,linked_nhse_health_records
+OPDATE_15,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_15,,Date of Procedure,linked_nhse_health_records
+OPDATE_16,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_16,,Date of Procedure,linked_nhse_health_records
+OPDATE_17,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_17,,Date of Procedure,linked_nhse_health_records
+OPDATE_18,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_18,,Date of Procedure,linked_nhse_health_records
+OPDATE_19,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_19,,Date of Procedure,linked_nhse_health_records
+OPDATE_20,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_20,,Date of Procedure,linked_nhse_health_records
+OPDATE_21,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_21,,Date of Procedure,linked_nhse_health_records
+OPDATE_22,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_22,,Date of Procedure,linked_nhse_health_records
+OPDATE_23,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_23,,Date of Procedure,linked_nhse_health_records
+OPDATE_24,date,,OPDATE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPDATE_24,,Date of Procedure,linked_nhse_health_records
+OPERSTAT,string,,OPERSTAT_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,OPERSTAT,,Operation Status Code,linked_nhse_health_records
+OPERTN_01,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_01,,Procedure Code,linked_nhse_health_records
+OPERTN_02,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_02,,Procedure Code,linked_nhse_health_records
+OPERTN_03,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_03,,Procedure Code,linked_nhse_health_records
+OPERTN_04,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_04,,Procedure Code,linked_nhse_health_records
+OPERTN_05,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_05,,Procedure Code,linked_nhse_health_records
+OPERTN_06,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_06,,Procedure Code,linked_nhse_health_records
+OPERTN_07,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_07,,Procedure Code,linked_nhse_health_records
+OPERTN_08,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_08,,Procedure Code,linked_nhse_health_records
+OPERTN_09,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_09,,Procedure Code,linked_nhse_health_records
+OPERTN_10,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_10,,Procedure Code,linked_nhse_health_records
+OPERTN_11,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_11,,Procedure Code,linked_nhse_health_records
+OPERTN_12,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_12,,Procedure Code,linked_nhse_health_records
+OPERTN_13,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_13,,Procedure Code,linked_nhse_health_records
+OPERTN_14,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_14,,Procedure Code,linked_nhse_health_records
+OPERTN_15,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_15,,Procedure Code,linked_nhse_health_records
+OPERTN_16,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_16,,Procedure Code,linked_nhse_health_records
+OPERTN_17,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_17,,Procedure Code,linked_nhse_health_records
+OPERTN_18,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_18,,Procedure Code,linked_nhse_health_records
+OPERTN_19,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_19,,Procedure Code,linked_nhse_health_records
+OPERTN_20,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_20,,Procedure Code,linked_nhse_health_records
+OPERTN_21,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_21,,Procedure Code,linked_nhse_health_records
+OPERTN_22,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_22,,Procedure Code,linked_nhse_health_records
+OPERTN_23,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_23,,Procedure Code,linked_nhse_health_records
+OPERTN_24,string,,OPCS4_coding,yes,,,,Our Future Health Linked NHS HES APC Data,OPERTN_24,,Procedure Code,linked_nhse_health_records
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked NHS HES APC Data,PID,,Participant ID,linked_nhse_health_records
+POSOPDUR,string,,POSOPDUR_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,POSOPDUR,,Post-Operative Duration,linked_nhse_health_records
+PREOPDUR,string,,PREOPDUR_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,PREOPDUR,,Pre-Operative Duration,linked_nhse_health_records
+PROCODE3_OFH,string,,,,,,,Our Future Health Linked NHS HES APC Data,PROCODE3_OFH,,Organisation Identifier (Code of Provider) (3 Character) (Pseudonymised by OFH),linked_nhse_health_records
+PROTYPE,string,,PROTYPE_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,PROTYPE,,Provider Type,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked NHS HES APC Data,ROW_ID,,OFH generated local key,linked_nhse_health_records
+RTTPEREND,date,,,,,,,Our Future Health Linked NHS HES APC Data,RTTPEREND,,Referral to Treatment Period End Date,linked_nhse_health_records
+RTTPERSTART,date,,,,,,,Our Future Health Linked NHS HES APC Data,RTTPERSTART,,Referral to Treatment Period Start Date,linked_nhse_health_records
+RTTPERSTAT,string,,RTTPERSTAT_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,RTTPERSTAT,,Referral to Treatment Period Status,linked_nhse_health_records
+SPELBGIN,string,,SPELBGIN_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,SPELBGIN,,Beginning of Spell Indicator,linked_nhse_health_records
+SPELEND,string,,SPELEND_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,SPELEND,,End of Spell Indicator,linked_nhse_health_records
+SUSRECID,string,,,,,,,Our Future Health Linked NHS HES APC Data,SUSRECID,,SUS Record Identifier,linked_nhse_health_records
+SUSSPELLID,string,,SUSSPELLID_apc_coding,yes,,,,Our Future Health Linked NHS HES APC Data,SUSSPELLID,,SUS Generated Spell Identifier,linked_nhse_health_records
+TRETSPEF,string,,TRETSPEF_apc_coding,,,,,Our Future Health Linked NHS HES APC Data,TRETSPEF,,Treatment Specialty,linked_nhse_health_records

@@ -1,0 +1,10 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+BASISOFDIAGNOSIS,string,,BASISOFDIAGNOSIS_histcanreg_coding,,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,BASISOFDIAGNOSIS,,Basis of diagnosis of the tumour according to all the data received by the registry.,linked_nhse_health_records
+DIAGNOSISDATEBEST,date,,,,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,DIAGNOSISDATEBEST,,The date the diagnosis took place.,linked_nhse_health_records
+DIAGNOSIS_SITE_CODE,string,,ICD9_coding,yes,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,DIAGNOSIS_SITE_CODE,,4 digit ICD code. ICD code is dependent upon year of diagnosis. ,linked_nhse_health_records
+GRADE,string,,GRADE_histcanreg_coding,,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,GRADE,,Code to identify the extent of differentation of the tumour cells.,linked_nhse_health_records
+LATERALITY,string,,LATERALITY_histcanreg_coding,,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,LATERALITY,,Identifies the side of the body for a tumour relating to paired organs.,linked_nhse_health_records
+PID,string,,,,,participant:PID,many_to_one,Our Future Health Linked NDRS Cancer Registry pre-1995,PID,,Participant ID,linked_nhse_health_records
+ROW_ID,string,local,,,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,ROW_ID,,OFH generated local key,linked_nhse_health_records
+SCREENINGSTATUS,string,,SCREENINGSTATUS_histcanreg_coding,,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,SCREENINGSTATUS,,Indicator to show whether the tumour was identified by a screening program.,linked_nhse_health_records
+STAGE,string,,STAGE_histcanreg_coding,,,,,Our Future Health Linked NDRS Cancer Registry pre-1995,STAGE,,Stage of the tumour at time of diagnosis. ,linked_nhse_health_records

@@ -1,0 +1,4 @@
+name,type,primary_key_type,coding_name,is_sparse_coding,is_multi_select,referenced_entity_field,relationship,folder_path,title,units,description,sheet
+PID,string,,,,,participant:PID,many_to_one,Participant Geographies > Intermediate Zones (IZ),PID,,Participant ID,participant_geographies
+ID,string,local,,,,,,Participant Geographies > Intermediate Zones (IZ),ID,,Row ID,participant_geographies
+IZ_AT_REG,string,,IZ_AT_REG,,,,,Participant Geographies > Intermediate Zones (IZ),IZ_AT_REG,,Intermediate Zones (IZ) of participants living in Scotland at the time of registration.,participant_geographies
