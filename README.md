@@ -90,7 +90,7 @@ the source data is published here:
 - **The OFH data dictionaries describe field names, types, and coding
   tables, but not much about what realistic values should look like** -
   no valid ranges, no field interactions, no units in some cases. Where
-  we've had to guess, that's flagged inline with a `# TODO:` comment, e.g.:
+  I've had to guess, that's flagged inline with a `# TODO:` comment, e.g.:
 
   ```python
   # TODO: are these sensible bounds for tumour count?
@@ -104,7 +104,7 @@ the source data is published here:
   generator that's making an assumption you know to be wrong, contributions
   correcting these are very welcome.
 - **There's also a good chance of unknown unknowns** - some fields may be
-  wrong in ways we haven't thought to question, because I'm not a domain
+  wrong in ways I haven't thought to question, because I'm not a domain
   expert in any of these datasets (cancer registry staging, primary care
   coding, etc.). Treat every generator as a best-effort guess unless you
   know otherwise.
