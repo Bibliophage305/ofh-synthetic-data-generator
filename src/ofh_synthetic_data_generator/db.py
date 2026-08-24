@@ -1,8 +1,10 @@
 import sqlite3
+from functools import cache
 
 from ofh_synthetic_data_generator.constants import HEALTH_CODINGS_DB_PATH
 
 
+@cache
 def get_codes(coding_name: str) -> list[str]:
     with sqlite3.connect(HEALTH_CODINGS_DB_PATH) as connection:
         rows = connection.execute(
